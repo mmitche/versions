@@ -1,0 +1,11 @@
+<OrchestratedBuild Name="msbuild-osc" BuildId="20180124-04">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180125-01/websdk/index.json">
+    <Package Id="Microsoft.NET.Sdk.Publish" Version="2.0.0-master-20180124-1318490" />
+    <Package Id="Microsoft.NET.Sdk.Web" Version="2.0.0-master-20180124-1318490" />
+    <Package Id="Microsoft.NET.Sdk.Web.ProjectSystem" Version="2.0.0-master-20180124-1318490" />
+    <Blob Id="symbols/Microsoft.NET.Sdk.Publish.2.0.0-master-20180124-1318490.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.NET.Sdk.Web.2.0.0-master-20180124-1318490.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.NET.Sdk.Web.ProjectSystem.2.0.0-master-20180124-1318490.symbols.nupkg" />
+  </Endpoint>
+  <Build Name="websdk" BuildId="20180125-01" Branch="release/2.1" Commit="0d358e713a3b691704552fb0944791e4939b4259" />
+</OrchestratedBuild>

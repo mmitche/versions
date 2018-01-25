@@ -1,0 +1,33 @@
+<OrchestratedBuild Name="msbuild-osc" BuildId="20180124-04">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180125-01/templating/index.json">
+    <Package Id="Microsoft.DotNet.Common.ItemTemplates" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.DotNet.Common.ProjectTemplates.1.x" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.DotNet.Common.ProjectTemplates.2.0" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.DotNet.Common.ProjectTemplates.2.1" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.DotNet.Test.ProjectTemplates.1.x" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.DotNet.Test.ProjectTemplates.2.0" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.DotNet.Test.ProjectTemplates.2.1" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Abstractions" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Cli" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Cli.Localization" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Core" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Core.Contracts" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Edge" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.IDE" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Mocks" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Orchestrator.RunnableProjects" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.TestHelper" Version="1.0.1-beta3-20180124-1318487" />
+    <Package Id="Microsoft.TemplateEngine.Utils" Version="1.0.1-beta3-20180124-1318487" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Abstractions.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Cli.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Core.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Core.Contracts.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Edge.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.IDE.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Mocks.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Orchestrator.RunnableProjects.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.TestHelper.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.TemplateEngine.Utils.1.0.1-beta3-20180124-1318487.symbols.nupkg" />
+  </Endpoint>
+  <Build Name="templating" BuildId="20180125-01" Branch="release/2.1" Commit="19f7212f0c01fe0fbc2b65af233956a17e3f81b5" />
+</OrchestratedBuild>
