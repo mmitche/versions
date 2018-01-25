@@ -1,8 +1,6 @@
 <OrchestratedBuild Name="core-setup-osc" BuildId="20180124-04">
   <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180124-04/core-setup/index.json">
     <Package Id="Microsoft.DotNet.PlatformAbstractions" Version="2.1.0-preview1-26124-04" />
-    <Package Id="Microsoft.DotNet.ProjectJsonMigration" Version="1.2.1-alpha-002171" />
-    <Package Id="Microsoft.DotNet.Tools.MigrateCommand" Version="1.2.1-alpha-002171" />
     <Package Id="Microsoft.Extensions.DependencyModel" Version="2.1.0-preview1-26124-04" />
     <Package Id="Microsoft.Net.UWPCoreRuntimeSdk" Version="2.2.0-preview1-26124-04" />
     <Package Id="Microsoft.NETCore.App" Version="2.1.0-preview1-26124-04" />
@@ -149,8 +147,6 @@
     <Blob Id="Runtime/2.1.0-preview1-26124-04/sharedfx_win-x64_Release_version_badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="Runtime/2.1.0-preview1-26124-04/sharedfx_win-x86_Release_version_badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="symbols/Microsoft.DotNet.PlatformAbstractions.2.1.0-preview1-26124-04.symbols.nupkg" />
-    <Blob Id="symbols/Microsoft.DotNet.ProjectJsonMigration.1.2.1-alpha-002171.symbols.nupkg" />
-    <Blob Id="symbols/Microsoft.DotNet.Tools.MigrateCommand.1.2.1-alpha-002171.symbols.nupkg" />
     <Blob Id="symbols/Microsoft.Extensions.DependencyModel.2.1.0-preview1-26124-04.symbols.nupkg" />
     <Blob Id="symbols/Microsoft.Net.UWPCoreRuntimeSdk.2.2.0-preview1-26124-04.symbols.nupkg" />
     <Blob Id="symbols/Microsoft.NETCore.App.2.1.0-preview1-26124-04.symbols.nupkg" />
@@ -214,6 +210,5 @@
     <Blob Id="symbols/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.2.2.0-preview1-26124-04.symbols.nupkg" />
     <Blob Id="symbols/runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.6.1.0-preview1-26124-04.symbols.nupkg" />
   </Endpoint>
-  <Build Name="dotnet/cli-migrate" BuildId="1315084" Branch="refs/heads/release/2.1.3xx" Commit="d7cde6d36f4f9383c857394785d4e9b72288c196" />
   <Build Name="core-setup" BuildId="20180124-04" Branch="release/2.1" Commit="fcedfbd02e817e7f5d51c1064b830d67063b594a" />
 </OrchestratedBuild>
