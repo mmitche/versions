@@ -1,0 +1,7 @@
+<OrchestratedBuild Name="sdk-osc" BuildId="20180124-04">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180125-01/sdk/index.json">
+    <Package Id="Microsoft.NET.Build.Extensions" Version="2.1.300-preview1-62525-01" />
+    <Package Id="Microsoft.NET.Sdk" Version="2.1.300-preview1-62525-01" />
+  </Endpoint>
+  <Build Name="dotnet/sdk" BuildId="20180125.1" Branch="refs/heads/release/2.1.3xx" Commit="0f79bbe7adcf345cc1b6854a28fc503cbbf1aa4a" />
+</OrchestratedBuild>
