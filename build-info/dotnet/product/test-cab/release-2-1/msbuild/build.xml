@@ -1,3 +1,13 @@
 <OrchestratedBuild Name="msbuild-osc" BuildId="20180124-04">
-  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180124-04/msbuild/index.json" />
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180125-01/msbuild/index.json">
+    <Package Id="Microsoft.Build" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Conversion.Core" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Engine" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Framework" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Localization" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Runtime" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Tasks.Core" Version="15.7.0-preview-000005-1318505" />
+    <Package Id="Microsoft.Build.Utilities.Core" Version="15.7.0-preview-000005-1318505" />
+  </Endpoint>
+  <Build Name="msbuild" BuildId="20180125-01" Branch="vs15.7" Commit="dfba2a4903110702a88e7db9c04d8147eae235a4" />
 </OrchestratedBuild>
