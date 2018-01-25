@@ -1,0 +1,59 @@
+<OrchestratedBuild Name="msbuild-osc" BuildId="20180124-04">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180125-01/nuget.client/index.json">
+    <Package Id="NuGet.Build.Tasks" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Build.Tasks.Pack" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.CommandLine" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.CommandLine.XPlat" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Commands" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Common" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Configuration" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Credentials" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.DependencyResolver.Core" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Frameworks" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Indexing" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.LibraryModel" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Localization" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.PackageManagement" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.PackageManagement.UI" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.PackageManagement.UI.TestContract" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.PackageManagement.VisualStudio" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Packaging" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Packaging.Core" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.ProjectModel" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Protocol" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Resolver" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.SolutionRestoreManager.Interop" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.Versioning" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.VisualStudio" Version="4.7.0-preview1-4854" />
+    <Package Id="NuGet.VisualStudio.Common" Version="4.7.0-preview1-4854" />
+    <Package Id="Test.Utility" Version="4.7.0-preview1-4854" />
+    <Blob Id="symbols/NuGet.Build.Tasks.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Build.Tasks.Pack.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.CommandLine.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.CommandLine.XPlat.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Commands.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Common.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Configuration.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Credentials.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.DependencyResolver.Core.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Frameworks.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Indexing.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.LibraryModel.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Localization.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.PackageManagement.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.PackageManagement.UI.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.PackageManagement.UI.TestContract.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.PackageManagement.VisualStudio.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Packaging.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Packaging.Core.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.ProjectModel.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Protocol.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Resolver.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.SolutionRestoreManager.Interop.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.Versioning.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.VisualStudio.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/NuGet.VisualStudio.Common.4.7.0-preview1-4854.symbols.nupkg" />
+    <Blob Id="symbols/Test.Utility.4.7.0-preview1-4854.symbols.nupkg" />
+  </Endpoint>
+  <Build Name="nuget.client" BuildId="20180125-01" Branch="dev" Commit="4e048506fd15ef140e628b526fb5c952759915bc" />
+</OrchestratedBuild>
