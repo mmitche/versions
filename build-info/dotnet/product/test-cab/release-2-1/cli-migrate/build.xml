@@ -1,9 +1,7 @@
-<OrchestratedBuild Name="cli-migrate-osc" BuildId="20180124-04">
-  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180124-04/cli-migrate/index.json">
-    <Package Id="Microsoft.DotNet.ProjectJsonMigration" Version="1.2.1-alpha-002171" />
-    <Package Id="Microsoft.DotNet.Tools.MigrateCommand" Version="1.2.1-alpha-002171" />
-    <Blob Id="symbols/Microsoft.DotNet.ProjectJsonMigration.1.2.1-alpha-002171.symbols.nupkg" />
-    <Blob Id="symbols/Microsoft.DotNet.Tools.MigrateCommand.1.2.1-alpha-002171.symbols.nupkg" />
+<OrchestratedBuild Name="cli-migrate-osc" BuildId="20180130-03">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180130-03/cli-migrate/index.json">
+    <Package Id="Microsoft.DotNet.ProjectJsonMigration" Version="1.2.1-alpha-62530-05" />
+    <Package Id="Microsoft.DotNet.Tools.MigrateCommand" Version="1.2.1-alpha-62530-05" />
   </Endpoint>
-  <Build Name="dotnet/cli-migrate" BuildId="1315084" Branch="refs/heads/release/2.1.3xx" Commit="d7cde6d36f4f9383c857394785d4e9b72288c196" />
+  <Build Name="dotnet/cli-migrate" BuildId="20180130.5" Branch="refs/heads/release/2.1.3xx" Commit="abc2a1d4d7a5a08a1708ece9e60c1eba3d062c0c" />
 </OrchestratedBuild>
