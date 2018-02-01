@@ -1,4 +1,4 @@
-<OrchestratedBuild Name="cli-migrate-osc" BuildId="20180130-03">
+<OrchestratedBuild Name="fsharp-osc" BuildId="20180201-03">
   <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180201-03/fsharp/index.json">
     <Package Id="FSharp.Core" Version="4.1.19" />
     <Package Id="FSharp.Core" Version="4.3.3" />
