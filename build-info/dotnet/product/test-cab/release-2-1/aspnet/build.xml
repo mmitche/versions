@@ -1,299 +1,530 @@
-<OrchestratedBuild Name="aspnet-osc" BuildId="20180201-02">
-  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180201-02/aspnet/index.json">
-    <Package Id="dotnet-dev-certs" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="dotnet-sql-cache" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="dotnet-user-secrets" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="dotnet-watch" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNet.Identity.AspNetCoreCompat" Version="0.4.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.All" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Analyzers" Version="0.1.0-alpha1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Antiforgery" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.App" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.ApplicationInsights.HostingStartup" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.AspNetCoreModule" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.Cookies" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.Facebook" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.Google" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.OAuth" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authentication.Twitter" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authorization" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Authorization.Policy" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.AzureAppServices.HostingStartup" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.AzureKeyVault.HostingStartup" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.BenchmarkRunner.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Buffering" Version="0.4.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Certificates.Generation.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.ChunkingCookieManager.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.CookiePolicy" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Cors" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Cryptography.Internal" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection.AzureKeyVault" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection.AzureStorage" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection.Extensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection.Redis" Version="0.4.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DataProtection.SystemWeb" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Diagnostics" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Diagnostics.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Diagnostics.Elm" Version="0.4.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Diagnostics.Identity.Service" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Hosting" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Hosting.WebHostBuilderFactory.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Hosting.WindowsServices" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Html.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Http" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Http.Extensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Http.Features" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.HttpOverrides" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.HttpsPolicy" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.HttpSys.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.AzureKeyVault" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.IntegratedWebClient" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.Mvc" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Service.Specification.Tests" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.Specification.Tests" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Identity.UI" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.JsonPatch" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Localization" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Localization.Routing" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.MiddlewareAnalysis" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Analyzers" Version="0.1.0-alpha1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Cors" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Localization" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Razor.Extensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Razor.Extensions.Version1_X" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.Testing" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Mvc.WebApiCompatShim" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.NodeServices" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.NodeServices.Sockets" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Owin" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Protocols.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Proxy" Version="0.3.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.RangeHelper.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Razor.Design" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Razor.Language" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Razor.Runtime" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Razor.TagHelpers.Testing.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.ResponseCaching" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.ResponseCaching.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.ResponseCompression" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Rewrite" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Routing" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Routing.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Routing.DecisionTree.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.HttpSys" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.IIS" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.IISIntegration" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.IntegrationTesting" Version="0.5.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.Kestrel" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Https" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Session" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Client" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Client.Core" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Client.MsgPack" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Common" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Core" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.MsgPack" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Protocols.MsgPack" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SignalR.Redis" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Sockets" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Sockets.Abstractions" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Sockets.Client.Http" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Sockets.Common.Http" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Sockets.Http" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SpaServices" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.SpaTemplates" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.StaticFiles" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.TestHost" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.Testing" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.AzureAlert" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.BitBucket" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Dropbox" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.DynamicsCRM" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.GitHub" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Kudu" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.MailChimp" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Pusher" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Salesforce" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Slack" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Stripe" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Trello" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.WordPress" Version="1.0.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebSockets" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.AspNetCore.WebUtilities" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.CodeAnalysis.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.CodeAnalysis.Razor.Workspaces" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.CodeAnalysis.Remote.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Data.Sqlite" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Data.Sqlite.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.DotNet.Web.Client.ItemTemplates" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.DotNet.Web.ItemTemplates" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.DotNet.Web.ProjectTemplates.2.1" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.DotNet.Web.Spa.ProjectTemplates" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Attributes" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Design" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Relational" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Relational.Specification.Tests" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Specification.Tests" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ActivatorUtilities.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ApplicationModelDetection" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Caching.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Caching.Memory" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Caching.Redis" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Caching.SqlServer" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ClosedGenericMatcher.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.CommandLineUtils.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.AzureKeyVault" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.Binder" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.CommandLine" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.DockerSecrets" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.Ini" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.Json" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.UserSecrets" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Configuration.Xml" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.CopyOnWriteDictionary.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.DependencyInjection" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.DependencyInjection.Specification.Tests" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.DiagnosticAdapter" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Diagnostics.HealthChecks" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.FileProviders.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.FileProviders.Composite" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.FileProviders.Embedded" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.FileProviders.Physical" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.FileSystemGlobbing" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.HashCodeCombiner.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Hosting" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Http" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Identity.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Identity.Stores" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Localization" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Localization.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.Abstractions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.Analyzers" Version="0.1.0-alpha1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.AzureAppServices" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.Configuration" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.Console" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.Debug" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.EventLog" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.EventSource" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.Testing" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Logging.TraceSource" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ObjectMethodExecutor.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ObjectPool" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Options" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ParameterDefaultValue.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Primitives" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.Process.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.PropertyActivator.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.PropertyHelper.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.RazorViews.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.SecurityHelper.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.StackTrace.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.TypeNameHelper.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.ValueStopwatch.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.WebEncoders" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Extensions.WebEncoders.Sources" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Net.Http.Headers" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Owin.Security.Interop" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Editor.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.LanguageServices.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Mac.LanguageServices.Razor" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Core" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Templating" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="Microsoft.Web.Xdt.Extensions" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Package Id="RazorPageGenerator" Version="2.1.0-preview1-28222" NonShipping="true" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-rh.rhel.7-x64.rpm" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-rhel.7-x64.rpm" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-win-x64.exe" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-win-x64.zip" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-win-x86.exe" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-win-x86.zip" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-2.1.0-preview1-28222-x64.deb" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-internal-2.1.0-preview1-28222-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-internal-2.1.0-preview1-28222-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-internal-2.1.0-preview1-28222-win-x64.wixlib" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-internal-2.1.0-preview1-28222-win-x64.zip" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-internal-2.1.0-preview1-28222-win-x86.wixlib" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-internal-2.1.0-preview1-28222-win-x86.zip" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-symbols-2.1.0-preview1-28222-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-symbols-2.1.0-preview1-28222-win-x64.zip" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore-runtime-symbols-2.1.0-preview1-28222-win-x86.zip" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/aspnetcore_base_runtime.version" ShipInstaller="dotnetcli" />
-    <Blob Id="Runtime/2.1.0-preview1-28222/nuGetPackagesArchive-2.1.0-preview1-28222.lzma" ShipInstaller="dotnetcli" />
+<OrchestratedBuild Name="cli-osc" BuildId="20180201-02">
+  <Endpoint Id="Orchestrated" Type="BlobFeed" Url="https://dotnetfeed.blob.core.windows.net/orchestrated-release-2-1/20180205-02/aspnet/index.json">
+    <Package Id="dotnet-dev-certs" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="dotnet-sql-cache" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="dotnet-user-secrets" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="dotnet-watch" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNet.Identity.AspNetCoreCompat" Version="0.4.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.All" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Analyzers" Version="0.1.0-alpha1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Antiforgery" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.App" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.ApplicationInsights.HostingStartup" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.AspNetCoreModule" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.Cookies" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.Facebook" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.Google" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.OAuth" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authentication.Twitter" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authorization" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Authorization.Policy" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.AzureAppServices.HostingStartup" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.AzureKeyVault.HostingStartup" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.BenchmarkRunner.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Buffering" Version="0.4.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Certificates.Generation.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.ChunkingCookieManager.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.CookiePolicy" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Cors" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Cryptography.Internal" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection.AzureKeyVault" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection.AzureStorage" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection.Extensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection.Redis" Version="0.4.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DataProtection.SystemWeb" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Diagnostics" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Diagnostics.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Diagnostics.Elm" Version="0.4.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Diagnostics.Identity.Service" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Hosting" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Hosting.WebHostBuilderFactory.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Hosting.WindowsServices" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Html.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Http" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Http.Extensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Http.Features" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.HttpOverrides" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.HttpsPolicy" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.HttpSys.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.AzureKeyVault" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.IntegratedWebClient" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.Mvc" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Service.Specification.Tests" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.Specification.Tests" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Identity.UI" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.JsonPatch" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Localization" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Localization.Routing" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.MiddlewareAnalysis" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Analyzers" Version="0.1.0-alpha1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Cors" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Localization" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Razor.Extensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Razor.Extensions.Version1_X" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.Testing" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Mvc.WebApiCompatShim" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.NodeServices" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.NodeServices.Sockets" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Owin" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Protocols.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Proxy" Version="0.3.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.RangeHelper.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Razor.Design" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Razor.Language" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Razor.Runtime" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Razor.TagHelpers.Testing.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.ResponseCaching" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.ResponseCaching.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.ResponseCompression" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Rewrite" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Routing" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Routing.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Routing.DecisionTree.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.HttpSys" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.IIS" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.IISIntegration" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.IntegrationTesting" Version="0.5.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.Kestrel" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Https" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Session" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Client" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Client.Core" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Client.MsgPack" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Common" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Core" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.MsgPack" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Protocols.MsgPack" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SignalR.Redis" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Sockets" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Sockets.Abstractions" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Sockets.Client.Http" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Sockets.Common.Http" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Sockets.Http" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SpaServices" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.SpaTemplates" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.StaticFiles" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.TestHost" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.Testing" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.AzureAlert" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.BitBucket" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Dropbox" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.DynamicsCRM" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.GitHub" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Kudu" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.MailChimp" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Pusher" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Salesforce" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Slack" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Stripe" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.Trello" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebHooks.Receivers.WordPress" Version="1.0.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebSockets" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.AspNetCore.WebUtilities" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.CodeAnalysis.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.CodeAnalysis.Razor.Workspaces" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.CodeAnalysis.Remote.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Data.Sqlite" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Data.Sqlite.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.DotNet.Web.Client.ItemTemplates" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.DotNet.Web.ItemTemplates" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.DotNet.Web.ProjectTemplates.2.1" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.DotNet.Web.Spa.ProjectTemplates" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Attributes" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Design" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Relational" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Relational.Specification.Tests" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Specification.Tests" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ActivatorUtilities.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ApplicationModelDetection" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Caching.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Caching.Memory" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Caching.Redis" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Caching.SqlServer" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ClosedGenericMatcher.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.CommandLineUtils.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.AzureKeyVault" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.Binder" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.CommandLine" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.DockerSecrets" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.Ini" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.Json" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.UserSecrets" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Configuration.Xml" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.CopyOnWriteDictionary.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.DependencyInjection" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.DependencyInjection.Specification.Tests" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.DiagnosticAdapter" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Diagnostics.HealthChecks" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.FileProviders.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.FileProviders.Composite" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.FileProviders.Embedded" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.FileProviders.Physical" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.FileSystemGlobbing" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.HashCodeCombiner.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Hosting" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Http" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Identity.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Identity.Stores" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Localization" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Localization.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.Abstractions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.Analyzers" Version="0.1.0-alpha1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.AzureAppServices" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.Configuration" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.Console" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.Debug" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.EventLog" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.EventSource" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.Testing" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Logging.TraceSource" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ObjectMethodExecutor.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ObjectPool" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Options" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ParameterDefaultValue.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Primitives" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.Process.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.PropertyActivator.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.PropertyHelper.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.RazorViews.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.SecurityHelper.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.StackTrace.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.TypeNameHelper.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.ValueStopwatch.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.WebEncoders" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Extensions.WebEncoders.Sources" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Net.Http.Headers" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Owin.Security.Interop" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Editor.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.LanguageServices.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Mac.LanguageServices.Razor" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Core" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Templating" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="Microsoft.Web.Xdt.Extensions" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Package Id="RazorPageGenerator" Version="2.1.0-preview1-28241" NonShipping="true" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-rh.rhel.7-x64.rpm" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-rhel.7-x64.rpm" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-win-x64.exe" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-win-x86.exe" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-2.1.0-preview1-28241-x64.deb" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-internal-2.1.0-preview1-28241-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-internal-2.1.0-preview1-28241-osx-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-internal-2.1.0-preview1-28241-win-x64.wixlib" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-internal-2.1.0-preview1-28241-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-internal-2.1.0-preview1-28241-win-x86.wixlib" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-internal-2.1.0-preview1-28241-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-symbols-2.1.0-preview1-28241-linux-x64.tar.gz" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-symbols-2.1.0-preview1-28241-win-x64.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore-runtime-symbols-2.1.0-preview1-28241-win-x86.zip" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/aspnetcore_base_runtime.version" ShipInstaller="dotnetcli" />
+    <Blob Id="Runtime/2.1.0-preview1-28241/nuGetPackagesArchive-2.1.0-preview1-28241.lzma" ShipInstaller="dotnetcli" />
     <Blob Id="Runtime/release/2.1/aspnetcore-runtime-linux-x64-version-badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="Runtime/release/2.1/aspnetcore-runtime-osx-x64-version-badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="Runtime/release/2.1/aspnetcore-runtime-win-x64-version-badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="Runtime/release/2.1/aspnetcore-runtime-win-x86-version-badge.svg" ShipInstaller="dotnetcli" />
     <Blob Id="Runtime/release/2.1/latest.aspnetcore.version" ShipInstaller="dotnetcli" />
+    <Blob Id="symbols/Microsoft.AspNet.Identity.AspNetCoreCompat.0.4.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.All.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Analyzers.0.1.0-alpha1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Antiforgery.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.App.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.Cookies.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.Facebook.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.Google.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.JwtBearer.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.MicrosoftAccount.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.OAuth.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.OpenIdConnect.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authentication.Twitter.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authorization.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Authorization.Policy.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.AzureAppServices.HostingStartup.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.AzureAppServicesIntegration.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.AzureKeyVault.HostingStartup.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Buffering.0.4.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.CookiePolicy.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Cors.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Cryptography.Internal.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Cryptography.KeyDerivation.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.AzureKeyVault.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.AzureStorage.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.Extensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.Redis.0.4.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DataProtection.SystemWeb.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.DeveloperCertificates.XPlat.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Diagnostics.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Diagnostics.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Diagnostics.Elm.0.4.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Diagnostics.HealthChecks.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Diagnostics.Identity.Service.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Hosting.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Hosting.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Hosting.Server.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Hosting.WindowsServices.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Html.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Http.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Http.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Http.Extensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Http.Features.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.HttpOverrides.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.HttpsPolicy.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.EntityFrameworkCore.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.AzureKeyVault.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.IntegratedWebClient.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.Mvc.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Service.Specification.Tests.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.Specification.Tests.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Identity.UI.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.JsonPatch.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Localization.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Localization.Routing.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.MiddlewareAnalysis.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Analyzers.0.1.0-alpha1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.ApiExplorer.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Cors.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.DataAnnotations.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Formatters.Json.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Formatters.Xml.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Localization.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Razor.Extensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Razor.Extensions.Version1_X.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.RazorPages.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.TagHelpers.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.Testing.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.ViewFeatures.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Mvc.WebApiCompatShim.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.NodeServices.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.NodeServices.Sockets.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Owin.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Protocols.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Proxy.0.3.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Razor.Design.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Razor.Language.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Razor.Runtime.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.ResponseCaching.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.ResponseCaching.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.ResponseCompression.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Rewrite.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Routing.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Routing.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.HttpSys.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.IISIntegration.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.IntegrationTesting.0.5.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.Kestrel.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.Kestrel.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.Kestrel.Https.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Session.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Client.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Client.Core.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Client.MsgPack.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Common.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Core.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.MsgPack.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Protocols.MsgPack.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SignalR.Redis.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Sockets.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Sockets.Abstractions.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Sockets.Client.Http.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Sockets.Common.Http.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Sockets.Http.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SpaServices.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.SpaServices.Extensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.StaticFiles.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.TestHost.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.Testing.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.AzureAlert.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.BitBucket.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Dropbox.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.DynamicsCRM.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.GitHub.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Kudu.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.MailChimp.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Pusher.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Salesforce.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Slack.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Stripe.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.Trello.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebHooks.Receivers.WordPress.1.0.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebSockets.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.AspNetCore.WebUtilities.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.CodeAnalysis.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.CodeAnalysis.Razor.Workspaces.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.CodeAnalysis.Remote.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Data.Sqlite.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Data.Sqlite.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Attributes.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Design.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.InMemory.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Proxies.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Relational.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Relational.Specification.Tests.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Specification.Tests.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.Sqlite.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.EntityFrameworkCore.SqlServer.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.ApplicationModelDetection.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Caching.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Caching.Memory.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Caching.Redis.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Caching.SqlServer.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.AzureKeyVault.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.Binder.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.CommandLine.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.DockerSecrets.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.EnvironmentVariables.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.FileExtensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.Ini.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.Json.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.UserSecrets.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Configuration.Xml.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.DependencyInjection.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.DependencyInjection.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.DependencyInjection.Specification.Tests.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.DiagnosticAdapter.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Diagnostics.HealthChecks.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.FileProviders.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.FileProviders.Composite.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.FileProviders.Embedded.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.FileProviders.Physical.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.FileSystemGlobbing.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Hosting.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Hosting.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Http.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Identity.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Identity.Stores.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Localization.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Localization.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.Abstractions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.Analyzers.0.1.0-alpha1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.AzureAppServices.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.Configuration.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.Console.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.Debug.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.EventLog.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.EventSource.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.Testing.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Logging.TraceSource.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.ObjectPool.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Options.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Options.ConfigurationExtensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.Primitives.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Extensions.WebEncoders.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Net.Http.Headers.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Owin.Security.Interop.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Editor.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.LanguageServices.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Mac.LanguageServices.Razor.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.BrowserLink.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.Core.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.Design.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.Templating.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.Tools.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGeneration.Utils.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/Microsoft.Web.Xdt.Extensions.2.1.0-preview1-28241.symbols.nupkg" />
+    <Blob Id="symbols/RazorPageGenerator.2.1.0-preview1-28241.symbols.nupkg" />
   </Endpoint>
-  <Build Name="aspnet" BuildId="2.1.0-preview1-28222" />
+  <Build Name="aspnet" BuildId="2.1.0-preview1-28241+pb-20180205-02" />
 </OrchestratedBuild>
